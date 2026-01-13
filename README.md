@@ -11,3 +11,6 @@
 ###**1.2：硬件准备**
 
 USB-TYPEC线，L28推杆需要用4pinUSB线。
+<img src="https://github.com/liusihan54/ro/raw/main/webwxgetmsgimg%20(2).jpg" width="500" alt="推杆线示意图">
+
+
