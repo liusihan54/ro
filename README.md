@@ -16,3 +16,10 @@ USB-TYPEC线，L28推杆需要用4pinUSB线。
 ## **2：调试**
 
 用USB-TYPECL将执行器连接到自己电脑上面。若连接成功，上位机软件会显示软件号，比如说已连接REF xxxxxxxxxxxx 设备作为ref0.若没有任何东西显示出来，则要检查执行器是否成功上电，上电成功正常会闪烁绿灯。若上电成功但仍然没有反应，则换一根数据线。
+<img src="https://github.com/liusihan54/ro/raw/main/webwxgetmsgimg.jpg" width="500" alt="连接成功后显示如下">
+
+连接成功后输入对应的设备号，比如上面显示连接的设备为ref3，则输入ref3并按回车，会有一些执行器的基本参数输出。
+
+若要查看执行器内部参数模式，则输入
+```python
+ref0.motor.config
