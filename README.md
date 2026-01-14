@@ -2,13 +2,13 @@
 
 如果看完这篇文章还有疑问请移步智元机器人官网：https://www.zhiyuan-robot.com/DOCS/OS/X1-PDG
 ---------------------------
-## **1：准备工作**
+## **1 准备工作**
 
-### **1.1：软件准备**
+### **1.1 软件准备**
 
 在自己电脑（windows系统）上下载上位机软件:https://www.zhiyuan-robot.com/file/ueditor/php/upload/file/20250114/x1/REF-CLI%20v1.0.3.exe
 
-### **1.2：硬件准备**
+### **1.2 硬件准备**
 
 USB-TYPEC线，L28推杆需要用4pinUSB线。
 ---
@@ -16,7 +16,7 @@ USB-TYPEC线，L28推杆需要用4pinUSB线。
 <img src="https://github.com/liusihan54/ro/raw/main/webwxgetmsgimg%20(2).jpg" width="50%" alt="推杆线示意图">
 </p>
 
-## **2：调试**
+## **2 调试**
 
 *注意，所有的代码前面的设备号要换成实际的设备号，演示代码的设备号只是一个例子*
 
@@ -61,7 +61,7 @@ ref0.can_node_id=0
 ref0.save_config()//保存所有参数，返回True则成功
 ```
 
-### **2.1: L28推杆调试**
+### **2.1 L28推杆调试**
 
 L28推杆调试特殊一点，需要用到4pinUSB线。
 
@@ -88,7 +88,7 @@ for i in range(10):
 ```
 这样L28推杆就会重复伸缩10次
 
-### **2.2： OmniPicker调试**
+### **2.2 OmniPicker调试**
 
 OmniPicker调试是用到USB-TYPEC线，前面的使能，失能状态切换，设置ID都是同上操作。接下来讲一下OmniPicker的特殊操作。
 
